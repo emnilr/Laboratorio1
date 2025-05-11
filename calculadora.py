@@ -25,6 +25,7 @@ def division():
 
    c = a / b
    print(c)
+    
 def logaritmo():
     a = float(input())
     base = 10
@@ -34,8 +35,6 @@ def logaritmo():
         c += 1
     print(c)
 
-
-    
 def potencia():
 
 
