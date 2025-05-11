@@ -20,10 +20,25 @@ def multiplicacion():
     print (C)
     
 def division():
+   a = int(input("Digite numero: "))
+   b = int(input("Digite numero: "))
 
+   c = a / b
+   print(c)
 def logaritmo():
+    a = float(input())
+    base = 10
+    c = 0
+    while a >= base:
+        a = a / base
+        c += 1
+    print(c)
 
 def potencia():
+    a = float(input())
+    b = float(input())
+    c = a ** b
+    print(c)
 
 
 
