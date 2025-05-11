@@ -1,11 +1,30 @@
-def suma():
+def suma(): 
+    a = int(input("Digite numero: "))
+    b = int(input("Digite numero: "))
 
+    c = a + b
+    print(c)
+    
 def resta():
+    a =  int(input("Digite numero: "))
+    b =  int(input("Digite numero: "))
 
+    c = a - b
+    print(c)
+    
 def multiplicacion():
+    a =  int(input("Digite numero: "))
+    b =  int(input("Digite numero: "))
 
+    c = a * b
+    print (C)
+    
 def division():
+   a = int(input("Digite numero: "))
+   b = int(input("Digite numero: "))
 
+   c = a / b
+   print(c)
 def logaritmo():
 
 def potencia():
