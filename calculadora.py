@@ -1,19 +1,19 @@
-def suma():
+def suma(): 
     a = int(input("Digite numero: "))
     b = int(input("Digite numero: "))
 
     c = a + b
     print(c)
-
+    
 def resta():
-    a = int(input("Digite numero: "))
-    b = int(input("Digite numero: "))
+    a =  int(input("Digite numero: "))
+    b =  int(input("Digite numero: "))
 
     c = a - b
     print(c)
-
+    
 def multiplicacion():
-
+ 
 def division():
 
 def logaritmo():
