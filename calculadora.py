@@ -26,17 +26,15 @@ def division():
    c = a / b
    print(c)
 def logaritmo():
-    a = float(input("Digite número (mayor que 0): "))
-    
-    if a <= 0:
-        print("Error: el número debe ser mayor que 0.")
-        return
-
+    a = float(input())
+    base = 10
     c = 0
-    while a >= 10:
-        a = a / 10
-        count += 1
+    while a >= base:
+        a = a / base
+        c += 1
     print(c)
+
+
     
 def potencia():
 
