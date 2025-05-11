@@ -26,7 +26,7 @@ def division():
    c = a / b
    print(c)
 def logaritmo():
-
+    
 def potencia():
 
 
