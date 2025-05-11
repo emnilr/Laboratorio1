@@ -1,13 +1,43 @@
-def suma():
+def suma(): 
+    a = int(input("Digite numero: "))
+    b = int(input("Digite numero: "))
 
+    c = a + b
+    print(c)
+    
 def resta():
+    a =  int(input("Digite numero: "))
+    b =  int(input("Digite numero: "))
 
+    c = a - b
+    print(c)
+    
 def multiplicacion():
+    a =  int(input("Digite numero: "))
+    b =  int(input("Digite numero: "))
 
+    c = a * b
+    print (C)
+    
 def division():
+   a = int(input("Digite numero: "))
+   b = int(input("Digite numero: "))
 
+   c = a / b
+   print(c)
 def logaritmo():
+    a = float(input("Digite número (mayor que 0): "))
+    
+    if a <= 0:
+        print("Error: el número debe ser mayor que 0.")
+        return
 
+    c = 0
+    while a >= 10:
+        a = a / 10
+        count += 1
+    print(c)
+    
 def potencia():
 
 
